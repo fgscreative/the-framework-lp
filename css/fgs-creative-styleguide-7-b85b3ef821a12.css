@@ -4289,7 +4289,7 @@ img {
 .hero-bg_contain {
   pointer-events: none;
   height: 100%;
-  position: absolute;
+  position: fixed;
   inset: 0%;
 }
 
