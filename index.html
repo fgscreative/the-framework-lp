@@ -559,19 +559,21 @@ body {
                     </div>
                     <div class="human-badge_contain"><img src="images/Crafted-By-Humans-Not-By-AI-Badge-white2x.png" loading="lazy" data-reveal-container="" alt="" class="human-badge"></div>
 					  <style>
-						  .human-badge_contain {
-    						opacity: 0;
-    						transition: opacity 5s ease-in-out;
-						}
+						 .human-badge_contain {
+    opacity: 0;
+    transform: translateY(10px); /* Start slightly below its natural position */
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
 						  </style>
 					  <script>
-						  window.addEventListener('load', function() {
+						 window.addEventListener('load', function() {
     setTimeout(function() {
         const badge = document.querySelector('.human-badge_contain');
         if (badge) {
             badge.style.opacity = '1';
+            badge.style.transform = 'translateY(0)'; /* Slide up to its natural position */
         }
-    }, 5000); // 800ms delay
+    }, 6000); // 800ms delay
 });
 					  </script>
                     <div class="note-1 is-relative">Full website under construction</div>
