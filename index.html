@@ -558,6 +558,22 @@ body {
                       </div>
                     </div>
                     <div class="human-badge_contain"><img src="images/Crafted-By-Humans-Not-By-AI-Badge-white2x.png" loading="lazy" data-reveal-container="" alt="" class="human-badge"></div>
+					  <style>
+						  .human-badge_contain {
+    						opacity: 0;
+    						transition: opacity 0.5s ease-in-out;
+						}
+						  </style>
+					  <script>
+						  window.addEventListener('load', function() {
+    setTimeout(function() {
+        const badge = document.querySelector('.human-badge_contain');
+        if (badge) {
+            badge.style.opacity = '1';
+        }
+    }, 800); // 800ms delay
+});
+					  </script>
                     <div class="note-1 is-relative">Full website under construction</div>
                   </div>
                   <div data-reveal-container="" class="note-1 hide-landscape">Full website under construction</div>
