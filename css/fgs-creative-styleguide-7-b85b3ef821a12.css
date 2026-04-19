@@ -8656,6 +8656,45 @@ img {
 }
 
 
+/* hero-content-top — base fix + responsive */
+
+.hero-content-top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Tablet (max 991px) */
+@media (max-width: 991px) {
+  .hero-content-top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* Mobile landscape (max 767px) */
+@media (max-width: 767px) {
+  .hero-content-top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* Mobile portrait (max 479px) */
+@media (max-width: 479px) {
+  .hero-content-top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 @font-face {
   font-family: 'Hoover';
   src: url('../fonts/Hoover-Thin.woff2') format('woff2');
