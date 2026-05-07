@@ -7433,7 +7433,7 @@ img {
   grid-row-gap: var(--_harmonic-spacing---gap--gap-lg);
   flex-flow: column;
   flex: 1;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-start;
   padding-top: 3.25dvh;
   display: flex;
